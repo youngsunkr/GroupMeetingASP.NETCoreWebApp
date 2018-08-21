@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupMeetingASP.NETCoreWebApp", "GroupMeetingASP.NETCoreWebApp\GroupMeetingASP.NETCoreWebApp.csproj", "{FE940119-F833-4E9C-A21F-311DB1F7C644}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE940119-F833-4E9C-A21F-311DB1F7C644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE940119-F833-4E9C-A21F-311DB1F7C644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE940119-F833-4E9C-A21F-311DB1F7C644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE940119-F833-4E9C-A21F-311DB1F7C644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AACA7405-D5DA-4126-BE44-961362DD749D}
+	EndGlobalSection
+EndGlobal
