@@ -56,7 +56,7 @@ namespace GroupMeetingASP.NETCoreWebApp
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=GroupMeeting}/{action=Index}/{id?}");
             });
         }
     }
