@@ -69,20 +69,16 @@ namespace GroupMeetingASP.NETCoreWebApp.Controllers
                 return NotFound();
             }
 
-
             return View(group);
-
         }
 
-
         [HttpPost]
-        public IActionResult DeelteMeeting(int id, GroupMeeting groupMeeting)
+        public IActionResult DeleteMeeting(int id, GroupMeeting groupMeeting)
         {
             if (GroupMeeting.DeleteGroupMeeting(id) > 0)
             {
                 return RedirectToAction("Index");
             }
-
             return View(groupMeeting);
         }
     }

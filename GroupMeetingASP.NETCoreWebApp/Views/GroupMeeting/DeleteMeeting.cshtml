@@ -1,7 +1,7 @@
 ﻿@model GroupMeetingASP.NETCoreWebApp.Models.GroupMeeting
 
 @{
-    ViewData["Title"] = "DeelteMeeting";
+    ViewData["Title"] = "DeleteMeeting";
 }
 
 <h2>DeelteMeeting</h2>
@@ -11,9 +11,6 @@
     <h4>GroupMeeting</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dd>
-            @Html.DisplayFor(model => model.Id)
-        </dd>
         <dt>
             @Html.DisplayNameFor(model => model.ProjectName)
         </dt>
@@ -46,7 +43,7 @@
         </dd>
     </dl>
     
-    <form asp-action="DeelteMeeting">
+    <form asp-action="DeleteMeeting">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="YES" class="btn btn-danger btn-sm" />
         <a asp-action="Index" class="btn btn-danger">NO</a>

@@ -31,7 +31,7 @@ namespace GroupMeetingASP.NETCoreWebApp.Models
         [Required(ErrorMessage = "Enter Group Meeting Date!")]
         public DateTime? GroupMeetingDate  { get; set; }
 
-        static string strConnectionString = "User Id=sa;Password=Shri;Server=DESKTOP-2D0R2UP\\SQL2014;Database=ProjectMeeting;";
+        static string strConnectionString = "User Id=sa;Password=1;Server=.;Database=ProjectMeeting;";
 
         public static IEnumerable<GroupMeeting> GetGroupMeetings()
         {
